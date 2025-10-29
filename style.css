@@ -1,0 +1,70 @@
+   .container {
+  margin: 100px auto;
+  box-shadow: 4px 10px 25px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  height: 450px;
+  width: 350px;
+  background: linear-gradient(145deg, lightskyblue, skyblue);
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+}
+
+input {
+  width: 90%;
+  height: 60px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  text-align: right;
+  color: white;
+  font-size: 18px;
+  padding-right: 10px;
+  box-shadow: 8px 3px 10px navy;
+}
+
+.Calculator {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  justify-content: center;
+}
+
+button {
+  height: 60px;
+  width: 60px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(145deg, purple, violet);
+  color: lightblue;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 2px 3px 5px black;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(145deg, violet, purple);
+  box-shadow: 10px 4px 10px black;
+}
+
+button:active {
+  transform: scale(0.95);
+  box-shadow: inset 1px 2px 5px black;
+}
+
+body {
+  background-image: linear-gradient(blue, violet, skyblue, purple);
+  font-family: Arial, sans-serif;
+}
+.container:hover{
+  transform: scale(1.09);
+  background-image: linear-gradient(blue, violet, skyblue, purple);
+}
